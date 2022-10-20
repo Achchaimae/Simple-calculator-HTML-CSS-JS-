@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
+    <!-- end font-->
+    <!--link css-->
+    <link rel="stylesheet" href="pages/style.css">
+    <!--end link css-->
+    <!--link javascript-->
+    <script src="pages/script.js"></script>
+    <!--end link javascript-->
+    <title>My Calculatrice</title>
+</head>
+<body>
+    <form name="calculatrice" class="calculatrice">
+
+        <input type="text" class="value" name="txt" readonly >
+        <span class="num Delete" onclick="document.calculatrice.innerHTML += '' ">Delete</span>
+        <span class="num divise" onclick="document.calculatrice.txt.value +='/'">/</span>
+        <span class="num" onclick="document.calculatrice.txt.value +='*'">x</span>
+        <span class="num" onclick="document.calculatrice.txt.value +='7'">7</span>
+        <span class="num" onclick="document.calculatrice.txt.value +='8'">8</span>
+        <span class="num" onclick="document.calculatrice.txt.value +='9'">9</span>
+        <span class="num" onclick="document.calculatrice.txt.value +='-'">-</span>
+        <span class="num" onclick="document.calculatrice.txt.value +='4'">4</span>
+        <span class="num" onclick="document.calculatrice.txt.value +='5'">5</span>
+        <span class="num" onclick="document.calculatrice.txt.value +='6'">6</span>
+        <span class="num plus" onclick="document.calculatrice.txt.value +='+'">+</span>
+        <span class="num" onclick="document.calculatrice.txt.value +='3'">3</span>
+        <span class="num" onclick="document.calculatrice.txt.value +='2'">2</span>
+        <span class="num" onclick="document.calculatrice.txt.value +='1'">1</span>
+        <span class="num" onclick="document.calculatrice.txt.value +='0'">0</span>
+        <span class="num" onclick="document.calculatrice.txt.value +='00'">00</span>
+        <span class="num" onclick="document.calculatrice.txt.value +='.'">.</span>
+        <span class="num equal" onclick="equal()">=</span>
+
+    </form>
+</body>
+</html>
