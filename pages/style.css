@@ -17,7 +17,9 @@ body{
   
     position: relative;
     display: grid;
+    gap: 4px;
 }
+
 .calculatrice .value{
     grid-column: span 4;
     height: 100px;
@@ -44,7 +46,7 @@ body{
     color: #111;
 }
 .calculatrice span.Delete{
-    border-radius:10%;
+    border-radius:7px;
     grid-column: span 2;
     width: 100%;
     background-color:rgb(255, 1, 1) ;
