@@ -7,7 +7,7 @@
 [Demo](https://achchaimae.github.io/Simple-calculator-HTML-CSS-JS-/)
 
 <div style="width:100%;">
-    <img style="width:30%" src="./assets/images/calc.png" alt="calculatrice " >
+    <img style="width:100%" src="./assets/images/calc.png" alt="calculatrice " >
 </div>
 
 <br>
